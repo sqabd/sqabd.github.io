@@ -1,0 +1,51 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: SQABD
+email: sarker.shantonu@gmail.com
+description: Build Better Software
+#baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
+url: "https://sqabd.github.io/" # the base hostname & protocol for your site
+url-pretty: "sqabd.github.io"
+# Social media profiles - feel free to add more here
+twitter_username:
+github_username:  sqabd
+facebook_username:
+#instagram_username: beyonce
+#stackoverflow_url: https://
+#googleplus_username: BobMarley
+#skype_username: echo123
+#linkedin_url: https://
+
+# Address information
+address_street: Ghoramara
+address_city: Rajshahi
+address_state: Rajshahi
+address_zip: 6100
+
+# Build settings
+markdown: kramdown
+
+navbar-links:
+  Discuss: "discuss"
+  Library: "library"
+  Ligtming Talks: "lt"
+  Members: "members"
+  Photos: "photos"
+  Meet The Mentors: "meet-the-mentors"
+  Services: "services"
+  News: "news"
+nav-search: search
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-github-metadata
+  - jekyll-youtube
